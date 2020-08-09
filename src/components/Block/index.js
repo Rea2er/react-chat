@@ -1,10 +1,10 @@
 import React from "react";
-import classnames from "classnames";
+import classNames from "classnames";
 
 import "./Block.scss";
 
 const Block = ({ children, className }) => {
-  return <div className={classnames("block", className)}>{children}</div>;
+  return <div className={classNames("block", className)}>{children}</div>;
 };
 
 export default Block;

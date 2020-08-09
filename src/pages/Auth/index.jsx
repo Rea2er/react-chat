@@ -9,7 +9,7 @@ const Auth = () => (
   <section className="auth">
     <div className="auth__content">
       <Route exact path={["/", "/login"]} component={LoginForm} />
-      <Route path="/register" component={RegisterFrom} />
+      <Route exact path="/register" component={RegisterFrom} />
     </div>
   </section>
 );

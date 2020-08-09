@@ -1,14 +1,14 @@
 import React from "react";
 import PropTypes from "prop-types";
 import { Button as BaseButton } from "antd";
-import classnames from "classnames";
+import classNames from "classnames";
 
 import "./Button.scss";
 
 const Button = (props) => (
   <BaseButton
     {...props}
-    className={classnames("button", props.className, {
+    className={classNames("button", props.className, {
       "button--large": props.size === "large",
     })}
   />
